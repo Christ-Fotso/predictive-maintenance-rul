@@ -1,18 +1,18 @@
-\# Predictive Maintenance: Turbofan Engine RUL Estimator
+# Predictive Maintenance: Turbofan Engine RUL Estimator
 
 
 
-!\[Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+\[Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 
-!\[XGBoost](https://img.shields.io/badge/ML-XGBoost-orange)
+\[XGBoost](https://img.shields.io/badge/ML-XGBoost-orange)
 
-!\[FastAPI](https://img.shields.io/badge/API-FastAPI-green)
+\[FastAPI](https://img.shields.io/badge/API-FastAPI-green)
 
-!\[Status](https://img.shields.io/badge/Status-Production%20Ready-success)
+\[Status](https://img.shields.io/badge/Status-Production%20Ready-success)
 
 
 
-\## Overview
+## Overview
 
 This project is an \*\*Industrial AI solution\*\* designed to predict the \*\*Remaining Useful Life (RUL)\*\* of aircraft engines (Turbofans) based on time-series sensor data. 
 
@@ -22,7 +22,7 @@ Using the \*\*NASA C-MAPSS dataset\*\*, the system analyzes real-time sensor inp
 
 
 
-\## Tech Stack
+## Tech Stack
 
 &nbsp; \*\*Data Engineering:\*\* Pandas, NumPy (ETL \& Time-series processing)
 
@@ -34,7 +34,7 @@ Using the \*\*NASA C-MAPSS dataset\*\*, the system analyzes real-time sensor inp
 
 
 
-\## Key Features
+## Key Features
 
 &nbsp; \*\*Data Ingestion \& Cleaning:\*\* Automated pipeline to process raw sensor logs.
 
@@ -46,11 +46,11 @@ Using the \*\*NASA C-MAPSS dataset\*\*, the system analyzes real-time sensor inp
 
 
 
-\## Installation \& Usage
+## Installation \& Usage
 
 
 
-\### 1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 
@@ -62,7 +62,7 @@ cd predictive-maintenance-rul
 
 
 
-\### 2. Install dependencies
+### 2. Install dependencies
 
 It is recommended to use a virtual environment.
 
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 
 
 
-\### 3. Train the Model
+### 3. Train the Model
 
 The script will load the NASA dataset, process features, train the XGBoost model, and save it as a .pkl file.
 
@@ -94,7 +94,7 @@ Output: ✅ Modèle entraîné ! Erreur moyenne (RMSE) : 41.38 cycles
 
 
 
-\### 4. Run the API Server
+### 4. Run the API Server
 
 Start the FastAPI server to make predictions.
 
@@ -164,7 +164,7 @@ Output: Estimated remaining cycles and status.
 
 
 
-\## Dataset Info
+## Dataset Info
 
 The data is provided by the NASA Ames Research Center (Prognostics Data Repository). It simulates the degradation of turbofan engines under different operating conditions.
 
@@ -174,11 +174,9 @@ Author: Arole DJECHE - Engineering Student in AI \& Data
 
 
 
-\*\*\*
 
 
-
-!\[Demo Result](demo\_result.png)
+\[Demo Result](./demo\_result.png)
 
 
 
