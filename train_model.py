@@ -37,7 +37,6 @@ mse = mean_squared_error(y_test, predictions)
 rmse = np.sqrt(mse)
 
 print(f"Modèle entraîné ! Erreur moyenne (RMSE) : {rmse:.2f} cycles")
-print("Si le RMSE est autour de 40-45, c'est un bon début pour ce dataset.")
 
 if not os.path.exists('model'):
     os.makedirs('model')
