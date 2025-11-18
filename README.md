@@ -1,4 +1,4 @@
-\# ✈️ Predictive Maintenance: Turbofan Engine RUL Estimator
+\# Predictive Maintenance: Turbofan Engine RUL Estimator
 
 
 
@@ -12,7 +12,7 @@
 
 
 
-\## 📋 Overview
+\## Overview
 
 This project is an \*\*Industrial AI solution\*\* designed to predict the \*\*Remaining Useful Life (RUL)\*\* of aircraft engines (Turbofans) based on time-series sensor data. 
 
@@ -22,31 +22,31 @@ Using the \*\*NASA C-MAPSS dataset\*\*, the system analyzes real-time sensor inp
 
 
 
-\## 🛠️ Tech Stack
+\## Tech Stack
 
-\* \*\*Data Engineering:\*\* Pandas, NumPy (ETL \& Time-series processing)
+&nbsp; \*\*Data Engineering:\*\* Pandas, NumPy (ETL \& Time-series processing)
 
-\* \*\*Machine Learning:\*\* Scikit-learn, XGBoost (Regression Model)
+&nbsp; \*\*Machine Learning:\*\* Scikit-learn, XGBoost (Regression Model)
 
-\* \*\*Backend/API:\*\* FastAPI, Uvicorn, Pydantic
+&nbsp; \*\*Backend/API:\*\* FastAPI, Uvicorn, Pydantic
 
-\* \*\*Deployment:\*\* Docker ready (Model serialization with Joblib)
-
-
-
-\## 🚀 Key Features
-
-\* \*\*Data Ingestion \& Cleaning:\*\* Automated pipeline to process raw sensor logs.
-
-\* \*\*RUL Calculation:\*\* Transformation of time-cycles into "Time-to-Failure" targets.
-
-\* \*\*High-Performance Model:\*\* XGBoost Regressor optimized for tabular sensor data.
-
-\* \*\*Real-time Inference API:\*\* REST API endpoint to query the model with live data.
+&nbsp; \*\*Deployment:\*\* Docker ready (Model serialization with Joblib)
 
 
 
-\## ⚙️ Installation \& Usage
+\## Key Features
+
+&nbsp; \*\*Data Ingestion \& Cleaning:\*\* Automated pipeline to process raw sensor logs.
+
+&nbsp; \*\*RUL Calculation:\*\* Transformation of time-cycles into "Time-to-Failure" targets.
+
+&nbsp; \*\*High-Performance Model:\*\* XGBoost Regressor optimized for tabular sensor data.
+
+&nbsp; \*\*Real-time Inference API:\*\* REST API endpoint to query the model with live data.
+
+
+
+\## Installation \& Usage
 
 
 
@@ -62,9 +62,7 @@ cd predictive-maintenance-rul
 
 
 
-\###2. Install dependencies
-
-2\. Install dependencies
+\### 2. Install dependencies
 
 It is recommended to use a virtual environment.
 
@@ -78,7 +76,7 @@ pip install -r requirements.txt
 
 
 
-\###3. Train the Model
+\### 3. Train the Model
 
 The script will load the NASA dataset, process features, train the XGBoost model, and save it as a .pkl file.
 
@@ -96,7 +94,7 @@ Output: ✅ Modèle entraîné ! Erreur moyenne (RMSE) : 41.38 cycles
 
 
 
-\###4. Run the API Server
+\### 4. Run the API Server
 
 Start the FastAPI server to make predictions.
 
@@ -166,7 +164,7 @@ Output: Estimated remaining cycles and status.
 
 
 
-\##Dataset Info
+\## Dataset Info
 
 The data is provided by the NASA Ames Research Center (Prognostics Data Repository). It simulates the degradation of turbofan engines under different operating conditions.
 
@@ -180,17 +178,7 @@ Author: Arole DJECHE - Engineering Student in AI \& Data
 
 
 
-\### 💡 Petit bonus visuel
-
-
-
-Si tu as fait la capture d'écran du résultat vert ("🟢 Nominal"), renomme l'image en `demo\_result.png`, mets-la dans ton dossier, et ajoute cette ligne juste après le titre `Overview` dans le fichier ci-dessus :
-
-
-
-```markdown
-
 !\[Demo Result](demo\_result.png)
 
-```
+
 
