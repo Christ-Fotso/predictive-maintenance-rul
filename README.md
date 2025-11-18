@@ -2,47 +2,47 @@
 
 
 
-\[Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+[Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 
-\[XGBoost](https://img.shields.io/badge/ML-XGBoost-orange)
+[XGBoost](https://img.shields.io/badge/ML-XGBoost-orange)
 
-\[FastAPI](https://img.shields.io/badge/API-FastAPI-green)
+[FastAPI](https://img.shields.io/badge/API-FastAPI-green)
 
-\[Status](https://img.shields.io/badge/Status-Production%20Ready-success)
+[Status](https://img.shields.io/badge/Status-Production%20Ready-success)
 
 
 
 ## Overview
 
-This project is an \*\*Industrial AI solution\*\* designed to predict the \*\*Remaining Useful Life (RUL)\*\* of aircraft engines (Turbofans) based on time-series sensor data. 
+This project is an **Industrial AI solution** designed to predict the **Remaining Useful Life (RUL)** of aircraft engines (Turbofans) based on time-series sensor data. 
 
 
 
-Using the \*\*NASA C-MAPSS dataset\*\*, the system analyzes real-time sensor inputs (Temperature, Pressure, Vibration) to anticipate failures before they happen. This approach allows for \*\*predictive maintenance\*\*, reducing downtime and operational costs.
+Using the **NASA C-MAPSS dataset**, the system analyzes real-time sensor inputs (Temperature, Pressure, Vibration) to anticipate failures before they happen. This approach allows for **predictive maintenance**, reducing downtime and operational costs.
 
 
 
 ## Tech Stack
 
-&nbsp; \*\*Data Engineering:\*\* Pandas, NumPy (ETL \& Time-series processing)
+&nbsp; **Data Engineering:** Pandas, NumPy (ETL \& Time-series processing)
 
-&nbsp; \*\*Machine Learning:\*\* Scikit-learn, XGBoost (Regression Model)
+&nbsp; **Machine Learning:** Scikit-learn, XGBoost (Regression Model)
 
-&nbsp; \*\*Backend/API:\*\* FastAPI, Uvicorn, Pydantic
+&nbsp; **Backend/API:** FastAPI, Uvicorn, Pydantic
 
-&nbsp; \*\*Deployment:\*\* Docker ready (Model serialization with Joblib)
+&nbsp; **Deployment:** Docker ready (Model serialization with Joblib)
 
 
 
 ## Key Features
 
-&nbsp; \*\*Data Ingestion \& Cleaning:\*\* Automated pipeline to process raw sensor logs.
+&nbsp; **Data Ingestion \& Cleaning:** Automated pipeline to process raw sensor logs.
 
-&nbsp; \*\*RUL Calculation:\*\* Transformation of time-cycles into "Time-to-Failure" targets.
+&nbsp; **RUL Calculation:** Transformation of time-cycles into "Time-to-Failure" targets.
 
-&nbsp; \*\*High-Performance Model:\*\* XGBoost Regressor optimized for tabular sensor data.
+&nbsp; **High-Performance Model:** XGBoost Regressor optimized for tabular sensor data.
 
-&nbsp; \*\*Real-time Inference API:\*\* REST API endpoint to query the model with live data.
+&nbsp; **Real-time Inference API:** REST API endpoint to query the model with live data.
 
 
 
@@ -176,7 +176,7 @@ Author: Arole DJECHE - Engineering Student in AI \& Data
 
 
 
-\[Demo Result](./demo\_result.png)
+![Demo Result](./demo\_result.png)
 
 
 
