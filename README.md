@@ -58,6 +58,8 @@ git clone \[https://github.com/Christ-Fotso/predictive-maintenance-rul.git](http
 
 cd predictive-maintenance-rul
 
+```
+
 
 
 \###2. Install dependencies
@@ -72,6 +74,8 @@ It is recommended to use a virtual environment.
 
 pip install -r requirements.txt
 
+```
+
 
 
 \###3. Train the Model
@@ -83,6 +87,8 @@ The script will load the NASA dataset, process features, train the XGBoost model
 ```bash
 
 python train\_model.py
+
+```
 
 
 
@@ -99,6 +105,8 @@ Start the FastAPI server to make predictions.
 ```bash
 
 uvicorn app:app --reload
+
+```
 
 
 
@@ -132,6 +140,8 @@ Input: JSON containing values from 21 sensors.
 
 }
 
+```
+
 
 
 
@@ -152,7 +162,7 @@ Output: Estimated remaining cycles and status.
 
 }
 
-
+```
 
 
 
@@ -181,4 +191,6 @@ Si tu as fait la capture d'écran du résultat vert ("🟢 Nominal"), renomme l'
 ```markdown
 
 !\[Demo Result](demo\_result.png)
+
+```
 
