@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np  # <--- Ajouté pour le calcul mathématique
+import numpy as np
 import xgboost as xgb
 import joblib
 import os
