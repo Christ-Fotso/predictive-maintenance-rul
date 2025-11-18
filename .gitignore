@@ -1,0 +1,19 @@
+# Ignorer l'environnement virtuel (C'est le plus important)
+venv/
+env/
+.env
+
+# Ignorer les fichiers compilés par Python
+__pycache__/
+*.pyc
+
+# Ignorer les fichiers systèmes et IDE
+.DS_Store
+.vscode/
+.idea/
+
+# (Optionnel) Ignorer le dataset s'il est trop gros
+# data/
+
+# (Optionnel) Ignorer le modèle s'il est trop gros (>100Mo)
+# model/
